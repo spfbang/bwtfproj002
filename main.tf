@@ -15,7 +15,7 @@ provider "azurerm" {
   features {}
 }
 
-# Create a Resource Group if it doesn’t exist
+# Create a Resource Group if it doesn’t exist and do update..
 resource "azurerm_resource_group" "tfexample" {
   name     = "bw-tf-rg"
   location = "West Europe"
